@@ -5,7 +5,7 @@
     list-style: none;
     text-decoration: none;
     outline: none;
-    font-family: "Poppins", serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar {
@@ -102,11 +102,68 @@
     display: flex;
     flex-direction: row;
     color: #fff;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 16px;
 }
 
 .navbar .nav-right .lang{
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 2px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.navbar .nav-right .sign-in{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2px;
+}
+
+.navbar .nav-right .sign-in .signin-text-1{
+    font-size: 12px;
+}
+
+.navbar .nav-right .sign-in .signin-text-2{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.navbar .nav-right .orders{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2px;
+}
+
+.navbar .nav-right .orders .orders-text-1{
+    font-size: 12px;
+}
+
+.navbar .nav-right .orders .orders-text-2{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.navbar .nav-right .cart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: white;
+}
+
+.navbar .nav-right .cart i{
+    font-size: 28px;
+}
+
+.navbar .nav-right .cart .cart-text{
+    font-size: 14px;
+    font-weight: 600;
+    align-self: flex-end;
 }
