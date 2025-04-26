@@ -78,7 +78,7 @@
     background-color: #D4D4D4;
     height: 100%;
     width: 5%;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 5px 0px 0px 5px;
     /* padding: 0 .5vw; */
 }
 
@@ -94,7 +94,7 @@
     font-size: 24px;
     background-color: #F3A847;
     text-align: center;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 5px 5px 0px;
     padding: .5vw 0;
 }
 .navbar .nav-right{
@@ -156,14 +156,66 @@
     justify-content: center;
     gap: 5px;
     color: white;
+    position: relative;
 }
 
 .navbar .nav-right .cart i{
     font-size: 28px;
+    position: relative;
+}
+
+.navbar .nav-right .cart i::after{
+    content: "0";
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: black;
+    position: absolute;
+    top: 2px;
+    left: 14px;
 }
 
 .navbar .nav-right .cart .cart-text{
     font-size: 14px;
     font-weight: 600;
     align-self: flex-end;
+}
+
+.slider{
+    width: 100%;
+}
+
+.slider-images{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.slider .slider-images img{
+    width: 100%;
+}
+
+.slider{
+    position: relative;
+}
+
+.slider .slider-buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top: 25%;
+    transform: translateY(-50%);
+    padding: 3vw;
+}
+
+.slider .slider-buttons .slider-btn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
 }
