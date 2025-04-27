@@ -68,35 +68,65 @@
 .navbar .nav-fill .search-bar{
     width: 100%;
     height: 100%;
-    padding: 8px;
+    padding: 10px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    outline: none;
 }
 
 .navbar .nav-fill .search-bar select{
-    background-color: #D4D4D4;
+    background-color: #efefef;
     height: 100%;
-    width: 5%;
+    width: 7%;
     border-radius: 5px 0px 0px 5px;
-    /* padding: 0 .5vw; */
+    border: none;
+    padding: 0 .6vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #545454;
+}
+
+.navbar .nav-fill .search-bar select:hover, 
+.navbar .nav-fill .search-bar select:focus{
+    cursor: pointer;
+    color: black;
+    background-color: #e1e1e1;
 }
 
 .navbar .nav-fill .search-bar input{
     height: 100%;
     width: 90%;
     padding: 10px;
+    border: none;
 }
 
 .navbar .nav-fill .search-bar i{
     height: 100%;
-    width: 5%;
-    font-size: 24px;
-    background-color: #F3A847;
+    width: 6%;
+    font-size: 20px;
+    background-color: #fdbc69;
     text-align: center;
     border-radius: 0px 5px 5px 0px;
-    padding: .5vw 0;
+    padding: .7vw 0;
 }
+
+.navbar .nav-fill .search-bar i:hover{
+    cursor: pointer;
+    background-color: #f9a73d;
+}
+
+.navbar .nav-fill .search-bar select:focus,
+.navbar .nav-fill .search-bar i:active{
+    border: 2px solid orange;
+}
+
+/* .navbar .nav-fill .search-bar input:focus ~ select,
+.navbar .nav-fill .search-bar input:focus ~ i, */
+.navbar .nav-fill .search-bar input:focus {
+    border: 2px solid orange;
+}
+
+
 .navbar .nav-right{
     width: 30%;
     display: flex;
@@ -246,11 +276,12 @@
     position: absolute;
     top: 50%;
     background: linear-gradient(to top, #f2f2f2, #f2f2f2, #f2f2f2, #f2f2f200);
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: grid;
     padding: 24px;
     grid-template-areas: "i1 i2 i3 i4"
-                        "i5 i6 i7 i8";
+                        "i5 i6 i7 i8"
+                        "i9 i9 i9 i9";
     gap: 24px;
 }
 
@@ -290,4 +321,8 @@
 
 .i8{
     grid-area: i8;
+}
+
+.i9{
+    grid-area: i9;
 }
