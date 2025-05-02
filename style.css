@@ -276,7 +276,7 @@
     position: absolute;
     top: 50%;
     background: linear-gradient(to top, #f2f2f2, #f2f2f2, #f2f2f2, #f2f2f200);
-    /* border: 2px solid red; */
+    border: 2px solid red;
     display: grid;
     padding: 24px;
     grid-template-areas: "i1 i2 i3 i4"
@@ -289,11 +289,23 @@
     border: 2px solid rgb(2, 87, 25);
     height: 55vh;
     background-color: white;
+    min-width: 0;
 }
 
 .grid-container .grid-item h1{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 21px;
+}
+
+.grid-container .grid-item .products a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: black;
+}
+
+.grid-container .grid-item .products a img{
+    max-width: 100%;
+    min-height: 100%;
 }
 
 .grid-container .grid-item .more-link{
@@ -306,15 +318,15 @@
     padding: 20px 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: start;
-    row-gap: 8px;
+    justify-content: space-between;
 }
 
 .i1 .products{
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
+    row-gap: 24px;
 }
 
 .i2{
@@ -324,13 +336,14 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: start;
-    row-gap: 8px;
 }
 
 .i2 .products{
     display: grid;
     grid-template-areas: "p1 p1 p1"
                         "p2 p3 p4";
+    row-gap: 8px;
+    column-gap: 5px;
 }
 
 .i2 .products .product-1{
@@ -346,6 +359,16 @@
     grid-area: p4;
 }
 
+.i2 .products .product-1,
+.i2 .products .product-2,
+.i2 .products .product-3,
+.i2 .products .product-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: start; /* Vertically center text */
+    justify-content: space-between; /* Align text to the left */
+}
+
 .i3{
     grid-area: i3;
     padding: 20px 20px;
@@ -353,13 +376,13 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: start;
-    row-gap: 8px;
 }
 
 .i3 .products{
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
+    row-gap: 8px;
 }
 
 .i4{
@@ -369,13 +392,13 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: start;
-    row-gap: 8px;
 }
 
 .i4 .products{
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
+    row-gap: 8px;
 }
 
 .i5{
