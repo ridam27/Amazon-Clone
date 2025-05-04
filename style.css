@@ -320,7 +320,13 @@
 
 .grid-container .grid-item .more-link{
     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(33, 98, 161);
     font-size: 12px;
+}
+
+.grid-container .grid-item .more-link:hover{
+    color: black;
+    transition: all .2s ease-in-out;
 }
 
 .i1{
@@ -414,6 +420,15 @@
 
 .i6{
     grid-area: i6;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.i6 .products img{
+    max-width: 100%;
 }
 
 .i7{
