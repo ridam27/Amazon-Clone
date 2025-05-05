@@ -433,10 +433,30 @@
 
 .i7{
     grid-area: i7;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.i7 .products img{
+    max-width: 100%;
 }
 
 .i8{
     grid-area: i8;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.i8 .products{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .i9{
