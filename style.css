@@ -429,6 +429,7 @@
 
 .i6 .products img{
     max-width: 100%;
+    cursor: pointer;
 }
 
 .i7{
@@ -442,6 +443,7 @@
 
 .i7 .products img{
     max-width: 100%;
+    cursor: pointer;
 }
 
 .i8{
@@ -461,4 +463,23 @@
 
 .i9{
     grid-area: i9;
+    max-height: 300px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 20px;
+    overflow-x: scroll;
+}
+
+.i9 .products{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.i9 .products img{
+    height: 200px;
+    cursor: pointer;
 }
