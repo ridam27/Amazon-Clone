@@ -281,7 +281,12 @@
     padding: 24px;
     grid-template-areas: "i1 i2 i3 i4"
                         "i5 i6 i7 i8"
-                        "i9 i9 i9 i9";
+                        "i9 i9 i9 i9"
+                        "i10 i10 i10 i10"
+                        "i11 i12 i13 i14"
+                        "i15 i15 i15 i15"
+                        "i16 i17 i18 i19"
+                        "i20 i20 i20 i20";
     gap: 24px;
 }
 
@@ -482,4 +487,67 @@
 .i9 .products img{
     height: 200px;
     cursor: pointer;
+}
+
+.i10{
+    grid-area: i10;
+    max-height: 300px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 20px;
+    overflow-x: scroll;
+}
+
+.i10 .products{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.i10 .products img{
+    height: 200px;
+    cursor: pointer;
+}
+
+.i11{
+    grid-area: i11;
+}
+
+.i12{
+    grid-area: i12;
+}
+
+.i13{
+    grid-area: i13;
+}
+
+.i14{
+    grid-area: i14;
+}
+
+.i15{
+    grid-area: i15;
+}
+
+.i16{
+    grid-area: i16;
+}
+
+.i17{
+    grid-area: i17;
+}
+
+.i18{
+    grid-area: i18;
+}
+
+.i19{
+    grid-area: i19;
+}
+
+.i20{
+    grid-area: i20;
 }
