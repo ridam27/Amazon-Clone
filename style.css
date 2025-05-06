@@ -339,6 +339,12 @@
     transition: all .2s ease-in-out;
 }
 
+.horizontal-scroll{
+    width: 100%;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
 .i1{
     grid-area: i1;
     padding: 20px 20px;
@@ -480,7 +486,6 @@
     justify-content: space-between;
     align-items: start;
     gap: 20px;
-    overflow-x: scroll;
 }
 
 .i9 .products{
@@ -503,7 +508,6 @@
     justify-content: space-between;
     align-items: start;
     gap: 20px;
-    overflow-x: scroll;
 }
 
 .i10 .products{
@@ -589,7 +593,6 @@
     justify-content: space-between;
     align-items: start;
     gap: 20px;
-    overflow-x: scroll;
 }
 
 .i15 .products{
@@ -672,7 +675,6 @@
     justify-content: space-between;
     align-items: start;
     gap: 20px;
-    overflow-x: scroll;
 }
 
 .i20 .products{
@@ -743,10 +745,59 @@
     align-content: center;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
     color: #fff;
     font-weight: 600;
 }
 
 .top-btn:hover{
     background-color: #485769;
+}
+
+.nav-footer{
+    height: 380px;
+    background-color: #232f3e;
+    color: white;
+    align-content: center;
+}
+
+.nav-footer-item-container{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    gap: 120px;
+}
+
+.nav-footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.nav-footer-item li{
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+.nav-footer-item li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer-line{
+    width: 100%;
+    height: 1px;
+    border-top: 1px solid #3a4553;
+    background-color: #232f3e;
+}
+
+.footer-controls{
+    background-color: #232f3e;
+    height: 100px;
+}
+
+.nav-footer-2{
+    background-color: #131a22;
+    height: 100px;
 }
