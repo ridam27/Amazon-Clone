@@ -146,6 +146,11 @@
     font-weight: 600;
 }
 
+.navbar .nav-right .lang img{
+    
+    height: 14px;
+}
+
 .navbar .nav-right .sign-in{
     display: flex;
     flex-direction: column;
@@ -795,7 +800,60 @@
 .footer-controls{
     background-color: #232f3e;
     height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
+
+.footer-controls > a{
+    padding-top: 15px;
+}
+
+.footer-controls > a > img{
+    margin-right: 100px;
+    height: 30px;
+}
+
+.footer-controls .fc{
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid rgb(132, 134, 136);
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    font-size: 13px;
+    padding: 0 30px 0 10px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.footer-controls .fc i{
+    font-size: 16px;
+}
+
+.footer-controls .country-control img{
+    height: 20px;
+}
+
+.footer-controls .lang-control{
+    padding: 0 10px;
+}
+
+.footer-controls .lang-control::after{
+    content: "";
+    height: 0px;
+    width: 0px;
+    position: relative;
+    border-left: 5px solid transparent; 
+    border-right: 5px solid transparent; 
+    border-top: 5px solid rgb(132, 134, 136);
+}
+
 
 .nav-footer-2{
     background-color: #131a22;
