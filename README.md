@@ -47,10 +47,10 @@ This project is inspired by Amazon's official website. It is developed solely fo
 ## 📬 Contact
 For any inquiries or feedback, feel free to reach out:
 
-- [GitHub](github.com/ridam27)
+- [GitHub](https://github.com/ridam27)
 
 - [Email](mailto:ridamsatkar1@gmail.com)
 
 - [LinkedIn](https://linkedin.com/in/ridam27)
 
-- [Instagram](https://instagram.com/@ridamsatkar27)
+- [Instagram](https://instagram.com/ridamsatkar27)
