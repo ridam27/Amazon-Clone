@@ -1,5 +1,36 @@
 # Amazon Clone
- **The project is made using HTML and CSS - by Ridam Satkar**
+This project is a front-end clone of Amazon's website, built with HTML and CSS. It includes the main homepage layout and a sign-in page, designed to replicate Amazon's look and feel. The site is fully responsive, ensuring a smooth user experience across all devices.
 
- ## Deployment
-The website is deployed on [Netlify](https://ridam-amazon.netlify.app).
+## 🌐 Live Demo
+Experience the live version of the project here: 👉 ridam-amazon.netlify.app
+
+## 📁 Project Structure
+```
+Amazon-Clone/
+├── index.html          # Main homepage
+├── sign-in.html        # Sign-in page
+├── style.css           # Styles for the homepage
+├── sign-in.css         # Styles for the sign-in page
+├── Assets/             # Images and other assets
+└── README.md
+```
+
+## 🚀 Features
+
+- Homepage Layout: Recreates Amazon's homepage with sections like header, navigation bar, product listings, and footer.
+- Sign-In Page: Includes a sign-in page that resembles Amazon's authentication page.
+- Responsive Design: Ensures compatibility across various devices and screen sizes.
+- Clean Codebase: Structured HTML and CSS for easy understanding and maintenance.
+
+## 🛠️ Technologies Used
+
+- HTML5: For structuring the web content.
+- CSS3: For styling and layout.
+
+## 📦 Installation
+To run this project locally:
+
+- Clone the repository:
+```
+git clone https://github.com/ridam27/Amazon-Clone.git
+```
