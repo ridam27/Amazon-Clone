@@ -2,7 +2,7 @@
 This project is a front-end clone of Amazon's website, built with HTML and CSS. It includes the main homepage layout and a sign-in page, designed to replicate Amazon's look and feel. The site is fully responsive, ensuring a smooth user experience across all devices.
 
 ## 🌐 Live Demo - Hosted on Netlify
-Experience the live version of the project here: 👉 ridam-amazon.netlify.app
+Experience the live version of the project here: 👉 [ridam-amazon.netlify.app](https://ridam-amazon.netlify.app)
 
 ## 📁 Project Structure
 ```
@@ -46,11 +46,10 @@ This project is inspired by Amazon's official website. It is developed solely fo
 
 ## 📬 Contact
 For any inquiries or feedback, feel free to reach out:
-
-- [GitHub](github.com/ridam27)
+- [GitHub](https://github.com/ridam27)
 
 - [Email](mailto:ridamsatkar1@gmail.com)
 
 - [LinkedIn](https://linkedin.com/in/ridam27)
 
-- [Instagram](https://instagram.com/@ridamsatkar27)
+- [Instagram](https://instagram.com/ridamsatkar27)
