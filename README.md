@@ -30,7 +30,27 @@ Amazon-Clone/
 ## 📦 Installation
 To run this project locally:
 
-- Clone the repository:
+- Clone the repository in your desired local folder:
 ```
 git clone https://github.com/ridam27/Amazon-Clone.git
 ```
+- Open index.html in your preferred web browser: 
+You can double-click the index.html file or use a live server extension if you're using VS Code.
+
+## 📝 License
+This project is open source and available under the MIT License.
+
+## 🙌 Acknowledgements
+This project is inspired by Amazon's official website. It is developed solely for educational and practice purposes. All trademarks and copyrights belong to their respective owners.
+
+
+## 📬 Contact
+For any inquiries or feedback, feel free to reach out:
+
+- Email: ridam27@example.com
+
+- LinkedIn: linkedin.com/in/ridam27
+
+- Instagram: instagram.com/ridam27
+
+- GitHub: github.com/ridam27
