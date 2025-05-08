@@ -28,6 +28,7 @@
 .container .signin-title{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    font-weight: 500;
 }
 
 .container .form-container{
@@ -39,11 +40,12 @@
 .container .form-container label{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+    font-weight: 600;
 }
 
 .container .form-container input{
     height: 35px;
-    margin: 3px 0 4px 0;
+    margin: 3px 0 10px 0;
     padding: 3px 7px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
@@ -51,5 +53,108 @@
     border: 1px solid #888C8C;
     border-radius: 3px;
     box-shadow: 0 1px 2px rgba(15 17 17 / 15%) inset;
+
+    &:focus{
+        box-shadow: 0 0 0 3px rgba(74, 240, 255, 0.411);
+    }
 }
 
+.container .form-container input[type=submit]{
+    height: 35px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: #ffd814;
+    font-size: 14px;
+    border-radius: 100px;
+
+    &:hover{
+        box-shadow: none;
+        background-color: #ffce12;
+    }
+}
+
+.form-ack{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-bottom: 14px;
+}
+
+.form-ack a{
+    color: #2162a1;
+    text-decoration: underline;
+
+    &:hover{
+        color: #000;
+    }
+}
+
+.form-help{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #2162a1;
+    
+    &:hover{
+        color: #000;
+        text-decoration: underline;
+    }
+}
+
+.hr-line{
+    width: 100%;
+    height: 2px;
+    border-top: 1px solid rgb(213, 217, 217);
+    margin: 22px 0 14px 0;
+}
+
+.AB-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.AB-link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #2162a1;
+
+    &:hover{
+        color: #000;
+        text-decoration: underline;
+    }
+}
+
+.footer-line{
+    width: 100%;
+    height: 2px;
+    border-top: 1px solid rgb(213, 217, 217);
+    margin: 50px 0 30px 0;
+}
+
+.footer .footer-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer .footer-links li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #2162a1;
+
+    &:hover{
+        color: #000;
+        text-decoration: underline;
+    }
+}
+
+.footer .footer-copyright{
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 12px;
+    color: #565959;
+    cursor: pointer;
+}
